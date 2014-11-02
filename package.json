@@ -1,0 +1,50 @@
+{
+  "name": "paychex",
+  "version": "0.0.1",
+  "main": "lib/paychex.js",
+  "description": "Parses Paychex PDF files into JSON data that you can work with",
+  "homepage": "https://github.com/GMali/paychex",
+  "bugs": "https://github.com/GMali/paychex/issues",
+  "author": {
+    "name": "Gaurav Mali",
+    "email": "dev@gauravmali.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/GMali/paychex"
+  },
+  "license": "MIT",
+  "files": [
+    "lib"
+  ],
+  "keywords": [
+    "paychex",
+    "Paychex",
+    "Pay",
+    "Stub",
+    "Salary",
+    "PDF",
+    "JSON"
+  ],
+  "devDependencies": {
+    "grunt-contrib-jshint": "^0.10.0",
+    "grunt-contrib-nodeunit": "^0.3.3",
+    "grunt-contrib-watch": "^0.6.1",
+    "load-grunt-tasks": "^0.4.0",
+    "time-grunt": "^0.3.1",
+    "grunt-mocha-cli": "^1.9.0",
+    "jshint-stylish": "^0.2.0"
+  },
+  "scripts": {
+    "test": "grunt"
+  },
+  "bin": {
+    "paychex": "cli.js"
+  },
+  "preferGlobal": "true",
+  "dependencies": {
+    "commander": "^2.5.0",
+    "pdf2json": "^0.7.1",
+    "underscore": "^1.7.0"
+  }
+}
