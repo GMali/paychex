@@ -1,4 +1,4 @@
-#  [![Build Status](https://secure.travis-ci.org/GMali/paychex.png?branch=master)](http://travis-ci.org/GMali/paychex)
+# Paychex [![Build Status](https://secure.travis-ci.org/GMali/paychex.png?branch=master)](http://travis-ci.org/GMali/paychex)
 
 > Parses Paychex PDF files into JSON data that you can work with
 
